@@ -1,0 +1,49 @@
+:root {
+  /** Colors **/
+  --grisClaro: hsl(212, 45%, 89%);
+  --blanco: hsl(0, 0%, 100%);
+  --grisAzul: hsl(220, 15%, 55%);
+  --azulOscuro: hsl(218, 44%, 22%);
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: var(--grisClaro);
+}
+.contenedor {
+  margin-top: 10rem;
+  display: flex;
+}
+.contenido {
+ background-color: var(--blanco);
+ border-radius: 1rem;
+ padding: 2.5rem;
+ width: 35rem;
+ margin: 0 auto;
+}
+.imagen {
+  border-radius: 1rem;
+  height: 30rem;
+}
+.contenido h1 {
+  text-align: center;
+  color: var(--azulOscuro);
+}
+.contenido p {
+  margin: 0.5rem;
+  color: var(--grisAzul);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.attribution {
+  margin-top: 5rem;
+}
